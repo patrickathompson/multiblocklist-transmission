@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo && echo "Updating Bitorrent P2P Blocklists..."
+echo && echo "Updating BitTorrent P2P Blocklists..."
 
 
 rm -f blocklists/*.bin
@@ -21,6 +21,6 @@ for line in $(cat multiblocklist.conf); do
 	let count=count+1
 done;
 
-echo && echo "Bitorrent P2P Blocklists Update Complete!!!" && echo
+echo && echo "BitTorrent P2P Blocklists Update Complete!!!" && echo
 
 exit 0

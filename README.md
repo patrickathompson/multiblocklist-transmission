@@ -6,7 +6,10 @@
 
 	```
 	cd ~/.config/transmission 
-	git clone git@github.com:patrickathompson/multiblocklist-transmission.git
+	git init
+	git remote add origin git@github.com:patrickathompson/multiblocklist-transmission.git
+	git fetch
+	git reset --hard origin/master
 	```
 
 2. Add url for blocklists from your favorite online source into the multiblocklist.conf file. <br>

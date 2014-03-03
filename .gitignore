@@ -1,2 +1,8 @@
 *.txt
 *.gz
+*.bak
+dht.dat
+resume/
+settings.json
+stats.json
+torrents/

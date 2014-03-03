@@ -2,7 +2,11 @@
 *.gz
 *.bak
 dht.dat
-resume/
+resume/*
 settings.json
 stats.json
-torrents/
+torrents/*
+.README.md.html
+.buildpath
+.project
+blocklists/
